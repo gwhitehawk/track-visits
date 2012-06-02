@@ -1,0 +1,9 @@
+Simple analytics tool for a low-traffic website. 
+
+Usage: 
+1. Copy <?php include('track.php'); ?> to the website source. Visitor's data are stored in ip.txt, each line being:
+[ip] [timestamp]
+
+2. For the analysis, call: python track-visits.py
+
+A freely available hostip database is queried via API. Unfortunately, it's somewhat incomplete. 
