@@ -6,4 +6,5 @@ Usage:
 
 2. For the analysis, call: python track_visits.py
 
-A freely available hostip database is queried via API. Unfortunately, it's somewhat incomplete. 
+A freely available hostip database is queried via API. Unfortunately, it's somewhat incomplete. bar_chart.py can
+be used as a standalone utility to print ascii bar charts. 
